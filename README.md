@@ -1,64 +1,62 @@
 # IT Support Troubleshooting Lab
 
-A practical IT support portfolio demonstrating troubleshooting, problem-solving, computer maintenance, Windows support, networking, software installation, and user support skills.
+A practical IT support portfolio demonstrating real-world troubleshooting, system maintenance, identity management, and end-user support skills.
 
-## About This Project
+---
 
-This repository documents practical IT support scenarios and solutions based on common technical problems encountered by computer users.
+## 📌 Project Overview
+This repository documents practical IT support scenarios and structured solutions based on common technical challenges encountered in enterprise and small-business environments.
 
-The purpose of this project is to demonstrate a structured approach to:
+### Objectives
+* **Identify & Diagnose:** Analyze symptoms using a methodical troubleshooting framework.
+* **Resolve:** Implement reliable hardware, software, and network fixes.
+* **Document:** Record root-cause analysis and preventive measures clearly.
 
-- Identifying technical problems
-- Diagnosing the root cause
-- Applying appropriate troubleshooting steps
-- Resolving technical issues
-- Documenting solutions clearly
-- Communicating technical solutions to users
+---
 
-## Skills Demonstrated
+## 🛠️ Technical Skills Demonstrated
+* **Operating Systems:** Windows 10/11 installation, performance optimization, BSOD triage, system file repair (`sfc`, `DISM`).
+* **Identity & Access:** Active Directory account management, password reset policies, GPO application (`gpupdate`, `gpresult`).
+* **Networking & Support:** IP configuration (`ipconfig`, `ping`), DHCP/DNS triage, Wi-Fi connectivity, printer spooler fixes.
+* **Tools & Utilities:** Command Prompt, PowerShell, Event Viewer, Device Manager, Credential Manager.
 
-- Computer hardware troubleshooting
-- Windows installation and configuration
-- Software installation and troubleshooting
-- Basic networking and Wi-Fi troubleshooting
-- Printer setup and troubleshooting
-- User technical support
-- Microsoft Office
-- Problem solving
-- System maintenance
-- Basic web development
-- Software planning
+---
 
-## Troubleshooting Scenarios
+## 📂 Scenario Breakdown
 
-| Scenario | Category | Status |
-|---|---|---|
-| Wi-Fi connection failure | Networking | Planned |
-| Windows computer running slowly | Windows | Planned |
-| Printer not responding | Hardware / Software | Planned |
-| Software installation failure | Software | Planned |
-| Computer unable to boot | Hardware / Windows | Planned |
+| Scenario | Category | Status | Documentation File |
+| :--- | :--- | :--- | :--- |
+| **Wi-Fi Connection & Access Failure** | Networking | Completed | `troubleshooting/guest-network-access.md` |
+| **Domain Account Lockout & GPO** | Identity / AD | Completed | `identity-and-access/active-directory-and-passwords.md` |
+| **Printer Spooler & Display Issues** | Hardware / Peripheral | In Progress | `hardware-and-peripherals/printer-and-display-fix.md` |
+| **Slow Performance & Boot Issues** | Windows OS | Planned | `windows-and-os/boot-and-profile-issues.md` |
 
-## Approach
+---
 
-Each troubleshooting case will follow a structured process:
+## ⚙️ Troubleshooting Approach
 
-1. Identify the problem
-2. Gather information
-3. Identify possible causes
-4. Test possible causes
-5. Apply a solution
-6. Verify the solution
-7. Document the outcome
+Every scenario follows a standardized 7-step methodology:
+1. **Identify the Problem:** Gather user reports and error codes.
+2. **Establish a Theory:** Identify probable causes.
+3. **Test the Theory:** Perform non-destructive diagnostics.
+4. **Establish a Plan of Action:** Execute resolution steps.
+5. **Verify Full System Functionality:** Confirm fix with the end-user.
+6. **Implement Preventive Measures:** Prevent issue recurrence.
+7. **Document Findings:** Log outcome in repo documentation.
 
-## About Me
+---
 
-**Phillip Ndlovu**
+## 👤 About Me
 
-Entry-level Information Technology professional with a National Certificate (Vocational) in Information Technology and Computer Science and CompTIA A+.
+**Phillip Ndlovu**  
+Entry-Level Information Technology Professional  
+* **Education:** National Certificate (Vocational) in Information Technology and Computer Science
+* **Certifications:** CompTIA A+
+* **Technical Focus:** IT Support, System Administration, Networking, Web Development, and Technical Problem Solving.
 
-Technical interests include IT support, computer troubleshooting, networking, software development, web design, and technical problem solving.
+---
 
-## Future Improvements
-
-This project will continue to expand with additional troubleshooting cases, technical documentation, practical projects, and demonstrations of IT support skills.
+## 🚀 Future Improvements
+* Add PowerShell automation scripts for routine Help Desk tasks (e.g., automated user onboarding, log collection).
+* Include ticketing system workflow simulation guides (e.g., ServiceNow/Jira ticket resolution formats).
+* 
